@@ -15,14 +15,7 @@ footer{padding:8px 40px;height:42px;flex:none;font-size:13px;display:flex;justif
 @media print{#teaching-stage{position:static;width:auto;height:auto;transform:none}}
 
 
-/* Casual-copy deterrents; not access control. */
-@media screen{body{-webkit-user-select:none;user-select:none}input,textarea,[contenteditable="true"]{-webkit-user-select:text;user-select:text}svg,img{-webkit-user-drag:none}#interaction-guard-notice{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);max-width:90vw;background:#193e4c;color:white;padding:12px 20px;border-radius:12px;z-index:9999;font-size:16px;box-shadow:0 4px 18px #0004;pointer-events:none}}
-@media print{body>*{display:none!important}body:after{content:"請在網頁中使用本互動教材。";display:block;color:#193e4c;font-size:22px}}
-</style><script>
-// A client-side usage restriction, not tamper-proof access control.
-if (window.location.origin === 'https://huj8832.github.io') {
- document.documentElement.classList.add('approved-host');
-}
+
 </script>
 <style>
 html:not(.approved-host) #teaching-stage{display:none!important}
